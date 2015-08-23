@@ -10,45 +10,56 @@
 
     <!-- CSS Imports -->
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="vendor/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.less">
+
 
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar transparent navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">BathCraft NI</a>
-                </div>
-                <div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about_us.html">About Us</a></li> 
-                        <li><a href="portfolio.html">Portfolio</a></li> 
-                        <li><a href="contact.html">Contact Us</a></li> 
-                    </ul>
+    <!-- Top Navbar -->
+    <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+        <div class="container top">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BATHCRAFT NI</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li> 
+                    <li><a href="portfolio.html">Portfolio</a></li> 
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Photo  Carousel -->
+    <div id="bathroomCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bathroomCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bathroomCarousel" data-slide-to="1"></li>
+            <li data-target="#bathroomCarousel" data-slide-to="2"></li>
+            <li data-target="#bathroomCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img src="img/bathroom.jpg" alt="Contemporary Bathrooms">
+                <div class="carousel-caption">
+                    20 Years Experience, Stunning Bathrooms..<br> 
+                    <button type="button" class="btn btn-default btn-lg">
+                        <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> Scroll down to find out more!
+                    </button>
                 </div>
             </div>
-        </nav>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="img/bathroom.jpg" alt="Contemporary Bathrooms">
-                </div>
-
-                <div class="item">
-                    <img src="img/bathroom2.jpg" alt="Beautiful Suites">
+            <div class="item">
+                <img src="img/bathroom2.jpg" alt="Beautiful Suites">
+                <div class="carousel-caption">
+                    Get a Quote Today!
                 </div>
             </div>
 
@@ -61,13 +72,38 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
 
+        </div>
+    </div>
+
+    <section class="get-in-touch">
+        IS IT TIME YOUR BATHROOM HAD A BIT OF ATTENTION? LET US HELP WITH A CONTEMPORARY AND LOW MAINTENANCE BATHROOM REFURBISHMENT USING THE LATEST PVC PANELLING. ALL FULLY GUARANTEED.
+    </section>
+
+    <section class="services">
+        SERVICES WE PROVIDE
+    </section>
+
+    <section class="about-us">
+        <ul class="about-list">
+            <li> 20 years experience </li>
+            <li> Supplied by us, fitted by us</li>
+            <li> Best customer service and quality control in the country</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
         <nav class="navbar transparent navbar-inverse navbar-static-bottom">
             <div class="container">
+                <div class = "social-media">
+                    <a href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
+                    <a href="http://facebook.com" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                    <a href="https://plus.google.com/b/109212085046371959475/109212085046371959475/about" class="icon-button google-plus"><i class="fa fa-google-plus"></i><span></span></a>
+                </div>
             </div>
         </nav>
-    </div>
+    </section>
 </body>
 
 </html>
