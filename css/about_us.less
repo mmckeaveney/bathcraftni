@@ -42,6 +42,10 @@ span.glyphicon{
 
 }
 
+span.glyphicon:hover{
+  color:#269abc;
+}
+
 
 .tiles, .plumbing, .bathroom{
   text-align:center;
@@ -65,4 +69,48 @@ span.glyphicon{
 
 .our-people{
   padding-top:20px;
+}
+
+.images .row{
+  margin: 80px 0px 80px 0px;
+}
+
+
+
+img {
+  margin: 10px 60px 10px 30px;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+}
+
+img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(2, 2);
+  -ms-transform: scale(2, 2);
+  transform: scale(2, 2);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  box-shadow: 10px 10px 5px #888888;
+  z-index: 1;
+}
+
+.info-box {
+  text-align:center;
+  border-radius:5px;
+  border: 2px solid #ccc;
+  background-color:white;
+  box-shadow: 10px 10px 5px #888888;
+  font-size:30px;
+  margin-top:10%;
+}
+
+.contact-info{
+  padding-bottom:20px;
+}
+
+.our-story h4{
+  text-align:center;
 }
