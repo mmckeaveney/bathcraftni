@@ -7,15 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow">
 
-    <! -- Javascript Imports -->
-    <script src="vendor/js/jquery-2.1.4.min.js"></script>
-    <script src="vendor/js/bootstrap.min.js"></script>
-    <script src="vendor/js/less.min.js"></script>
-
     <!-- CSS Imports -->
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/portfolio.less">
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.css" type="text/css" media="screen" />
 
 </head>
 <body>
@@ -41,6 +37,23 @@
             </div>
         </div>
     </nav>
+
+    <div class="main-photo">
+        <img src="img/bathroomcontact.jpg" alt="Contemporary Bathrooms"/>
+        <div class="overlay">
+            PORTFOLIO<br>
+            <h1>Have a look at some of the work we have done already! </h1>
+        </div>
+    </div>
+
+    <section class="main-gallery">
+    <a class="fancybox" rel="group" href="img/before1.jpg"><img src="img/before1sm.jpg"/></a>
+    <a class="fancybox" rel="group" href="img/before2.jpg"><img src="img/before2sm.jpg"/></a>
+    <a class="fancybox" rel="group" href="img/after1.jpg"><img src="img/after1sm.jpg"/></a>
+    <a class="fancybox" rel="group" href="img/after2.jpg"><img src="img/after2sm.jpg"/></a>
+    <a class="fancybox" rel="group" href="img/after3.jpg"><img src="img/after3sm.jpg"/></a>
+    <a class="fancybox" rel="group" href="img/after4.jpg"><img src="img/after4sm.jpg"/></a>
+    </section>
 
 
     <!-- Footer -->
@@ -70,5 +83,13 @@
             </div>
         </nav>
     </section>
+
+    <! -- Javascript Imports -->
+    <script src="vendor/js/jquery-2.1.4.min.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="vendor/js/less.min.js"></script>
+    <script type="text/javascript" src="vendor/js/jquery.fancybox.pack.js"></script>
+    <script src="js/portfolio.js"></script>
+
 </body>
 </html>
