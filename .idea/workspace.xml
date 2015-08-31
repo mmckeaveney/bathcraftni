@@ -31,8 +31,8 @@
       <file leaf-file-name="about_us.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6577437" vertical-offset="3651" max-vertical-offset="4284">
-              <caret line="133" column="46" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
+            <state vertical-scroll-proportion="3.5755258" vertical-offset="0" max-vertical-offset="4216">
+              <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
       <file leaf-file-name="about_us.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/about_us.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0588236" vertical-offset="1153" max-vertical-offset="2057">
+            <state vertical-scroll-proportion="5.647059" vertical-offset="1546" max-vertical-offset="2057">
               <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
               <folding />
             </state>
@@ -179,7 +179,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441054956971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="moved your stuff from homepage to about us page">
+      <created>1441056171664</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1441056171664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -247,7 +253,8 @@
     </option>
     <MESSAGE value="about us page nearly finished" />
     <MESSAGE value="about page done to toris standard" />
-    <option name="LAST_COMMIT_MESSAGE" value="about page done to toris standard" />
+    <MESSAGE value="moved your stuff from homepage to about us page" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved your stuff from homepage to about us page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -325,7 +332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/about_us.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0588236" vertical-offset="1153" max-vertical-offset="2057">
+        <state vertical-scroll-proportion="5.647059" vertical-offset="1546" max-vertical-offset="2057">
           <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
           <folding />
         </state>
@@ -333,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6577437" vertical-offset="3651" max-vertical-offset="4284">
-          <caret line="133" column="46" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
+        <state vertical-scroll-proportion="3.5755258" vertical-offset="0" max-vertical-offset="4216">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
